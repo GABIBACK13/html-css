@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "fontedroid";
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: "poppins:bold";
+    src: url(fontes/poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "poppins:light";
+    src: url(fontes/poppins/Poppins-Regular.ttf);
+}
+body{
+    font: normal 1em arial;
+    margin: 0px;
+    padding: 0px;
+    background:linear-gradient(to bottom,rgb(107, 220, 176) 1%, rgb(224, 238, 183) 10%,  rgb(224, 238, 183) 99%);
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+header#principal{
+    padding: 0px;
+    margin: 0px;
+    font-family:"poppins:light";
+    color:azure;
+    position: relative; /* Para criar um contexto de posicionamento */
+    width: 100%;
+    background: linear-gradient(to bottom,rgb(107, 220, 176) 27%,rgb(28, 153, 101) 63%,rgb(11, 75, 49) 100%);
+}
+h1.header{
+    color: azure;
+    font-family: "poppins:bold";
+    text-align: center;
+    padding-top: 50px;
+}
+h2.subtitle{
+    font-family:"poppins:light";
+    color: azure;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    margin-bottom:0px;
+}
+nav {
+    position: absolute; /* Permite posicionar em relação ao header */
+    bottom: 0; /* Fixa o nav na parte inferior do header */
+    width: 100%; /* Garante que o nav ocupe toda a largura do header */
+    margin: 0px;
+    padding: 0px;
+}
+nav ul {
+    font-weight: bold;
+    list-style: none; 
+    display: flex; /* Organiza os itens na horizontal */
+    justify-content: space-around; /* Espaçamento uniforme */
+    margin: 0px;
+    padding: 5px;
+    color: white;
+}
+h1{
+    font-family: "fontedroid";
+    color: rgb(6, 51, 6);
+}
+h2.padrao{
+    background: linear-gradient(to left, white 6% , rgb(132, 208, 155) 35%, rgb(97, 196, 127) 60%, rgb(52, 188, 93) 85%, rgb(6, 51, 6) 100%);
+    font-family: "fontedroid";
+    color:rgb(236, 249, 236);
+    padding: 5px ;
+}
+section{
+    background-color: azure;
+    width: 60%; /* Controla a largura, deixando espaçamento nas laterais */
+    max-width: 1200px; /* Limita a largura máxima para layouts grandes */
+    margin: auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+}
+p{
+    font-family: "poppins:light";
+    text-align: justify;
+}
+.centered-picture {
+    display: flex; 
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    text-align: center;
+    width: 100%; 
+    height: auto; 
+}
+.centered-picture img {
+    max-width: 100%; /* Para tornar a imagem responsiva */
+    height: auto; /* Mantém proporção */
+    display: block; /* Remove espaçamento abaixo da imagem */
+}
+#video {
+    background-color: rgb(6, 69, 34);
+    display: flex; 
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    text-align: center; 
+    height: auto; 
+}
+h1#padrao {
+    font-family: "poppins:light";
+    color: azure;
+}
+header#rodape{
+    background-color: rgb(51, 146, 57);
+    margin: 0px;
+    padding: 0px;
+}
+div#rodape {
+    border-radius: 0px 0px 5px 5px;
+    background-color: rgb(178, 231, 194);
+    padding: 20px;
+}
+ol{
+    columns: 2;
+    padding: 20px;
+}
+a.menu {
+    text-decoration: none;
+    color: azure;
+    padding: 5px 10px;
+}
+a.menu:hover {
+    background-color: rgb(169, 213, 180);
+    color: rgb(12, 91, 12);
+    font-weight: bold;
+    border: 1px solid azure;
+}
+footer#credito {
+    text-align: center;
+    background-color:rgb(12, 91, 12);
+    color: azure;
+    padding: 8px 0px;
+}
