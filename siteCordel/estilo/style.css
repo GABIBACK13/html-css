@@ -62,16 +62,15 @@ section.imagem p {
     border-radius: 8px;
 }
 section.texto {
-    background: aliceblue url(../imagens/wallpaper004.jpg) no-repeat  scroll right center;
+    background: aliceblue url("../imagens/wallpaper004.jpg") no-repeat  scroll right center;
     background-size: cover;
-
 }
 section#secImg001 {
-    background-image: url(../imagens/background001.jpg);
+    background-image:url("../imagens/background001.jpg");
     background-position: center top;
 }
 section#secImg002 {
-    background-image: url(../imagens/background002.jpg);
+    background-image: url("../imagens/background002.jpg");
     background-position: right center;
 }
 footer {
