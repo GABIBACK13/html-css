@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Patrick+Hand&display=swap');
+
+:root {
+    --fonte_padrao: Verdana, Tahoma, sans-serif;
+    --fonte_title: 'Passion One', cursive;
+    --fonte_cursiva: 'Patrick Hand', cursive;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color:aliceblue;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    text-shadow: 0px 0px 2px rgb(46, 46, 46);
+}
+header {
+    font-family: var(--fonte_title);
+    color: azure;
+    background-color: black;
+    min-height: 130px;
+    text-align: center;
+}
+header h1 {
+    font-size: 8vw;
+    padding: 20px 0px 10px 0px;
+}
+header p {
+    font-size: 4.5vw;
+    padding: 10px 0px 30px 0px;
+}
+header a {
+    color:burlywood;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.8em;
+    padding-left: 30px;
+    font-family: var(--fonte_cursiva);
+    font-size: 3.5vw;
+    font-style: italic;
+}
+.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.419);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.556);
+    padding: 10px;
+    max-width: 40vw;
+    border-radius: 8px;
+}
+section.texto {
+    background: aliceblue url(../imagens/wallpaper004.jpg) no-repeat  scroll right center;
+    background-size: cover;
+
+}
+section#secImg001 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: center top;
+}
+section#secImg002 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: azure;
+    font-family: var(--fonte_padrao);
+    padding: 10px;
+    font-size: 16px;
+}
+footer a {
+    color: azure;
+    font-weight: bold;
+}
