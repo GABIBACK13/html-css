@@ -30,7 +30,7 @@ section#celular {
     width: 311px;
 }
 section#celular > div#tela {
-    background-color: green;
+    background-color:black;
     width: 85.5%;
     height: 75%;
     margin: auto;

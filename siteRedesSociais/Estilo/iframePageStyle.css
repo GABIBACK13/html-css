@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+img {
+    width: 100vw;
+}
+a {
+    display: block;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    font: bold normal 2em Arial, Sans-serif;
+    padding: 20px;
+    text-align: center;
+}
