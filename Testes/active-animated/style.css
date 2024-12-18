@@ -1,0 +1,43 @@
+* {
+padding: 0px;
+margin: 0px;
+}
+body, html {
+    height: 98%;
+    width: 98%;
+}
+.container {
+    display: block;
+    border: 2px solid black;
+    margin: 16px auto;
+    padding: 32px;
+    border-radius: 8px;
+}
+section.container {
+    position:relative;
+    height: 30%;
+    width: 60%;
+    background-color: black;
+}
+div#check {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 3px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 45%;
+    height: 25%;
+    border-radius: 33px;
+}
+div#ball {
+    background-color: black;
+    width: 33%;
+    height: 100%;
+    border-radius: 50px;
+}
+div#ball:hover {
+    cursor: pointer;
+    transform:translateX(200%);
+    transition-duration: 4s;
+}
