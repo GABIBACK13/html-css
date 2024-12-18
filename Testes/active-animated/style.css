@@ -38,6 +38,4 @@ div#ball {
 }
 div#ball:hover {
     cursor: pointer;
-    transform:translateX(200%);
-    transition-duration: 4s;
 }

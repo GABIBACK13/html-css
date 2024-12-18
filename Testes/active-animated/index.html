@@ -9,10 +9,24 @@
 <body>
     <section class="container">
         <div id="check">
-            <div id="ball">
+            <div id="ball" onclick="changeTeme()">
                 
             </div>
         </div>
     </section>
 </body>
+<script>
+    function changeTeme() {
+        let bola = window.document.getElementById("ball")
+        let status = ''
+        bola.style.transitionDuration = '1s'
+        if (status == 'active') {
+            bola.style.translate = '-200%'
+            status = '-1'
+        } else {
+            bola.style.translate = '200%' 
+            status = 'active'
+        }
+    }
+</script>
 </html>
